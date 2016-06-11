@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'deploy_test'
-set :repo_url, 'git@example.com:aristotelesbr2014/deploy_test.git'
+set :repo_url, 'git@github.com:aristotelesbr2014/deploy_test.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
