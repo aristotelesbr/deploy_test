@@ -4,6 +4,8 @@ lock '3.5.0'
 set :application, 'deploy_test'
 set :repo_url, 'git@github.com:aristotelesbr2014/deploy_test.git'
 
+
+set :passenger_restart_with_touch, true
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
