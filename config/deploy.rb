@@ -1,5 +1,4 @@
 # config valid only for current version of Capistrano
-lock '3.5.0'
 
 set :application, 'deploy_test'
 set :repo_url, 'git@github.com:aristotelesbr2014/deploy_test.git'
